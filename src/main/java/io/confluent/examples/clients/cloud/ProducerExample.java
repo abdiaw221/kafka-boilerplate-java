@@ -27,7 +27,6 @@ public class ProducerExample {
             System.out.println("Please provide command line arguments: configPath topic");
             System.exit(1);
         }
-
         OrderProducerService orderProducerService = new OrderProducerService(args[0]);
         String newTopic = args[1];
         orderProducerService.produceData(newTopic);
