@@ -31,6 +31,7 @@ public class ProducerExample {
         OrderProducerService orderProducerService = new OrderProducerService(args[0]);
         String newTopic = args[1];
         orderProducerService.produceData(newTopic);
+        orderProducerService.generateOrder();
     }
 
 }

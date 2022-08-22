@@ -17,6 +17,10 @@ public class Order {
     private int price;
     private String source;
 
+    public Order(){
+
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
